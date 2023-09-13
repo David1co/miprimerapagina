@@ -1,0 +1,258 @@
+*{/* el * modifica todo el contenido */
+    box-sizing: border-box; 
+    -webkit-font-smoothing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*ESTILOS GENERALES*/
+
+.fuente-clara {
+    color: #eeeeee;
+}
+
+.fuente-oscura {
+    color: black;
+}
+
+.fuente-acento {
+    color: yellow;
+}
+
+/*ENCABEZADO*/ 
+
+.contenedor {
+    width: 90%;
+    max-width: 1280%;
+    margin: auto;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-size: cover;
+    background: url(img/banner.webp);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 50vh;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+}
+
+.header menu img {
+    background-clip: border-box;
+    border-radius: 10px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    margin: 0 5px;
+}
+
+header ul li a {
+    color: #000000;
+}
+
+nav a:hover {
+    color: #eeeeee;
+}
+
+.titular {
+    text-align: center;
+    margin-top: 1vh;
+    color: #000000;
+}
+
+header div h1 {
+    font-size: 80px;
+    font-style: italic;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.titular a {
+    background-color: #000000;
+    color: greenyellow;
+    padding: 15px 40px;
+}
+
+/* CENTRO/MAIN */
+
+main {  
+    font-size: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+/*1 section: SOBRE MI*/
+
+#tarjetas {  
+    margin-bottom: 100px;
+    background-size: cover;
+    background: url(img/Fondo\ main.webp);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: -50vh;
+    margin: 0px;
+}
+
+.contenedor-tarjetas { 
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta {
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+}
+
+.tarjeta h3 { 
+    background-color: #000000;
+    color: aqua;
+    padding: 8px 20px;
+}
+
+.tarjeta img { 
+    margin: 50px;
+    float: left;
+    background-clip: border-box;
+    border-radius: 30px;
+}
+.tarjeta p {
+    font-size: 18px;
+    text-align: justify;
+    clear: right;
+}
+
+.tarjeta a {
+    background-color: #000000;
+    color: greenyellow;
+    padding: 8px 20px 8px 20px;
+}
+/*2 section: BANNER*/
+
+
+/*3 section: TRABAJO*/
+
+.titulo { 
+    font-size: 50px;
+    text-align: center;
+}
+
+.trabajo-en-equipo-1 {
+    font-size: 40px;
+    padding: 20px;
+    width: 300px;
+    text-align: justify;
+    float: left;
+}
+
+.titulo1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.trabajo-en-equipo-1 img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.parrafo1 {
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.trabajo-en-equito-2 {
+    font-size: 40px;
+    padding: 20px;
+    width: 300px;
+    text-align: justify;
+    float: left;
+}
+
+.titulo2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.trabajo-en-equito-2 img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.parrafo2 {
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 4 section: BOTONES*/
+
+#botones {
+    display: flex;
+    float: left;
+    clear: both;
+}
+.button {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+    margin: 20px;
+    background-clip: border-box;
+    border: 1px dashed orange;
+    border-radius:  5px;
+}
+
+.button-curiosidades {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: greenyellow;
+    padding: 10px;
+    cursor: pointer;
+    margin: 20px;
+    background-clip: border-box;
+    border: 1px solid orangered;
+    border-radius:  5px;
+}
+
+/* PIE DE PÁGINA*/
+
+#footer {
+    padding: 20px;
+    background-size: cover;
+    background: url(img/Fondo\ main.webp);
+    clear: both;
+}
+
+.contacto h4 {
+    background-color: #000000;
+    color: greenyellow;
+    padding: 8px 10px;
+}
+
+#footer ul li a:hover {
+    background-color: rgb(7, 7, 7);
+    color: rgb(40, 223, 55);
+    padding: 3px 7px; 
+}
